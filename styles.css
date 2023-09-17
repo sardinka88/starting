@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 0 10px ;
+}
+
+.color-card {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.color-card.one {
+    background-color: #aaff7f;
+}
+
+.color-card.two {
+    background-color: #7fffd4;
+}
+
+.color-card.three {
+    background-color: #d47fff;
+}
+
+.color-card.four {
+    background-color: #ff6347;
+}
+
+.color-card.five {
+    background-color: #7faaff;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 12px;
+}
+
+h3.font1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.color-card p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+}
+
+.color-card:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 5px 5px gray;
+}

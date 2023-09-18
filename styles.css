@@ -19,7 +19,7 @@ h1 {
   flex: 1;
   border: 2px solid black;
   border-radius: 25px;
-  margin: 0 10px;
+  margin: 10px 10px;
   padding: 10px;
 }
 
@@ -115,4 +115,24 @@ h3 {
 
 .poppins {
     font-family: "Poppins", sans-serif;
+}
+
+.style-card.heading {
+  font-family: "Oswald", sans-serif;
+}
+
+.style-card.subheading {
+  font-family: "Poppins", sans-serif;
+}
+
+.style-card.paragraph {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.style-card h1, h2, p {
+  margin-bottom: 5px;
+}
+
+.style-card p {
+  margin-top: 12px;
 }

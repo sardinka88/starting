@@ -1,75 +1,118 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 48px;
-    text-align: center;
-    margin-bottom: 50px;
-    border-bottom: 3px solid black;
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 3px solid black;
 }
 
 .container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex: 1;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin: 0 10px ;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 0 10px;
+  padding: 10px;
 }
 
 .color-card {
-    border: 1px solid black;
-    width: 200px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .color-card.one {
-    background-color: #aaff7f;
+  background-color: #aaff7f;
 }
 
 .color-card.two {
-    background-color: #7fffd4;
+  background-color: #7fffd4;
 }
 
 .color-card.three {
-    background-color: #d47fff;
+  background-color: #d47fff;
 }
 
 .color-card.four {
-    background-color: #ff6347;
+  background-color: #ff6347;
 }
 
 .color-card.five {
-    background-color: #7faaff;
+  background-color: #7faaff;
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    padding: 12px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  padding: 12px;
 }
 
-h3.font1 {
-    font-family: 'Oswald', sans-serif;
-}
 
 .color-card p {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 18px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
 }
 
 .color-card:hover {
-    transform: scale(1.2);
-    box-shadow: 10px 5px 5px gray;
+  transform: scale(1.2);
+  box-shadow: 10px 5px 5px gray;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+}
+
+.regular {
+    font-size: 32px;
+}
+
+.small {
+    font-size: 16px;
+}
+
+.font-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.font-version {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.container.fonts {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-bottom: 16px;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.bebas {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
 }

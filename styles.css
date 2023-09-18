@@ -61,7 +61,6 @@ h2 {
   padding: 12px;
 }
 
-
 .color-card p {
   font-family: "Bebas Neue", sans-serif;
   font-size: 18px;
@@ -73,48 +72,48 @@ h2 {
 }
 
 .oswald {
-    font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .regular {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .small {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .font-card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 25px;
-    margin: 0 10px;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  margin: 0 10px;
+  padding: 10px;
 }
 
 .font-version {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
 }
 
 .container.fonts {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 h3 {
-    margin-bottom: 16px;
-    text-decoration: underline;
-    font-size: 32px;
+  margin-bottom: 16px;
+  text-decoration: underline;
+  font-size: 32px;
 }
 
 .bebas {
-    font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .poppins {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .style-card.heading {
@@ -129,7 +128,9 @@ h3 {
   font-family: "Bebas Neue", sans-serif;
 }
 
-.style-card h1, h2, p {
+.style-card h1,
+h2,
+p {
   margin-bottom: 5px;
 }
 
